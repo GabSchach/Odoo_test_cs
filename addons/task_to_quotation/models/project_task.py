@@ -11,6 +11,12 @@ class ProjectTask(models.Model):
         help='Products that will be included in the quotation created from this task'
     )
     
+
+
+
+
+
+
     # Add method to create quotation
     def action_create_quotation(self):
         self.ensure_one()
