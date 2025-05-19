@@ -16,7 +16,6 @@ class ProjectTask(models.Model):
 
 
 
-
     # Add method to create quotation
     def action_create_quotation(self):
         self.ensure_one()
